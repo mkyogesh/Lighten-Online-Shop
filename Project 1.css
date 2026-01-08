@@ -1,0 +1,555 @@
+.pro
+{
+    background-color: lavenderblush;
+    /* overflow-x: hidden; */
+    /* width: 945px; */
+}
+.container
+{
+    height: 50px;
+    /* width: 945px; */
+    background-color:yellow;  
+}
+
+
+.con 
+{
+    position: relative;
+    top: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.con1>span
+{
+    position: relative;
+    top: 1px;
+    margin-left: 800px;
+
+}
+
+.container1>.con2 
+{
+    position:relative;
+    top: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+
+} 
+.container1
+{
+    /* width: 945px; */
+    position: sticky;
+    top: -3px;
+    z-index: 1;
+
+}
+.con2>button
+{
+    height: 50px;
+    width: 100px;
+    background-color: yellow;
+    border: none;
+}
+
+.con2
+{
+    position: fixed;
+    top: -10px;
+    z-index: 1;
+    
+}
+.con2>img
+{
+    position: relative;
+    top: -1px;
+}
+.con2>a
+{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+button,button>a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+.con2>a:hover
+{
+    color: rgb(243, 243, 13);
+    
+}
+.container2
+{
+    height: 500px;
+    width: 900px;
+    z-index: 1;
+}
+.container2>img
+{ 
+    margin-top: -15px;
+    height: 500px;
+    width: 1333px;
+
+}
+.con3
+{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 220px;
+    
+}
+.con3>h1
+{
+    font-size: 4.3rem;
+}
+.con3>h2
+{
+    font-size: 4.3rem;
+    font-weight: lighter;
+}
+.con3>#head2
+{
+    position: absolute;
+    top: 100px;
+
+}
+.con3>#head3
+{
+    position: absolute;
+    top: 170px;
+    color: rgb(245, 245, 22);
+}
+.con3>#p1
+{
+    position:relative;
+    top: 110px;
+    left: 5px;
+    font-size: small;
+}
+.con4
+{ 
+    position: relative;
+    top: -160px;
+    left: 220px;
+    height:20px;
+    width: 120px;
+    background-color:rgb(243, 243, 13) ;
+    color: white;
+    font-size: small; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px ;
+}
+.con4>p
+{
+    position:relative;
+    left: 14px;
+    top: 2px;
+}
+.con5
+{
+    position: relative;
+    top:-80px ;
+    left: 10px;
+    width: 500px;
+}
+.con5>button
+{
+    background-color: white;
+    border: none;
+    font-size: medium;
+}
+.container3
+{
+    /* width: 400px; */
+    position:relative ;
+    top: 30px;
+    font-size:1.5rem;
+    font-weight: 700;
+    text-align: center;
+    
+
+}
+#c1
+{
+    color: violet;
+}
+.line
+{
+    background-color: black;
+    position: relative;
+    height: 5px;
+    width: 50px;
+    top: 5px;
+    margin-left: 640px;
+}
+.container4
+{
+    /* width: 600px; */
+    text-align: center;
+}
+.container5
+{
+    /* width: 940px; */
+    background-color:plum;
+    position: relative;
+    height: 400px;
+    top:10px;
+    box-shadow: 0px 10px 20px rgb(163, 162, 163);
+    
+}
+.container5>.con6
+{
+    background-color: white;
+    height: 404px;
+    width: 900px;
+    position: relative;
+    left: 215px;
+    top: -0px;
+    box-shadow: 0px -10px 20px rgb(163, 162, 163);    
+}
+.con7
+{
+    /* height: 404px; */
+    display: grid;
+    grid-template-columns: repeat(4,185px);
+    margin-left: 70px;
+    
+}
+.con7>div>p
+{
+    position: relative;
+    top: 10px;
+}
+.con7>div>img
+{
+    height: 100px;
+    width: 100px;
+}
+.con7>div
+{
+
+    margin-top: 50px;
+    text-align: center;
+}
+#read
+{ 
+    position: relative;
+    margin-left: 320px;
+    height: 40px;
+    width: 100px;
+    top: -20px;
+    background-color: white;
+    border: 2px solid plum;
+}
+#read>a{
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    color: black;
+}
+.container6
+{
+    /* width: 990px; */
+    position:relative ;
+    top: 30px;
+    font-size:1.5rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+#c2
+{
+    color: violet;
+}
+.line2
+{
+    background-color: black;
+    position: relative;
+    height: 5px;
+    width: 50px;
+    top: 5px;
+    margin-left: 640px;
+}
+.container7
+{
+    /* width: 990px; */
+    text-align: center;
+}
+.container8
+{ 
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-auto-columns: 5px;
+    gap: 20px;
+}
+.container8>div
+{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top: 20px;
+    margin-left: 270px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    box-shadow:10px -10px 10px bisque;
+
+    
+}
+.container8>div>p,img
+{
+    position: relative;
+    top: 20px;
+}
+.container9>p
+{
+    position:relative ;
+    font-size:1.5rem;
+    font-weight: 700;
+    top: 20px; 
+    margin-left: 270px;   
+   
+}
+
+#c3
+{
+    color: violet;
+}
+.line3
+{
+    background-color: black;
+    position: relative;
+    height: 5px;
+    width: 50px;
+    top: -3px;
+    margin-left: 270px;
+}
+.container10>p
+{
+    position: relative;
+    top: -15px;
+    margin-left: 270px;
+    /* width: 945px; */
+}
+.container11
+{
+    height: 1000px;
+}
+.container11>img
+{
+    
+    height: 1150px;
+    width: 1333px;
+    filter:opacity(0.4);
+    box-shadow: 0px -10px 20px black;
+}
+.container12
+{
+    height: 500px;
+    /* width: 945px; */
+    display: grid;
+    grid-template-columns: repeat(4,180px);
+    /* grid-auto-columns: 10px; */
+    text-align: center;
+    position: relative;
+    top: -1060px;
+    gap: 30px;
+}
+.container12>div
+{
+    position: relative;
+    margin-left: 270px;
+    /* margin-top: 80px; */
+}
+.container12>div>img
+{
+    height: 160px;
+    width: 160px;
+}.container12>div>p
+{
+    
+    position: relative;
+    top: 5px;
+    
+}.container12>div
+{
+   background-color:#e4d7e4;
+   box-shadow: 0px -5px 10px rgb(163, 162, 163);
+   height:230px;
+   width: 180px;
+}
+.container13
+{
+    position: relative;
+    height:350px ;
+    top: -300px;
+    /* background-image: url(images/download.jfif); */
+
+}
+
+#c4
+{
+    position: relative;
+    font-size: 1.5rem;
+    margin-left: 70px;
+}
+#c5
+{
+    position:relative;
+    top: -75px;
+    margin-left: 200px;
+    font-style:oblique;
+}
+.container13>img
+{
+    height: 95px;
+    width: 90px;
+    position:relative;
+    top: 10px;
+    left: 70px;
+}
+#c6
+{
+    position: relative;
+    width: 1000px;
+    left: 70px;
+    font-size: small;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#c7
+{
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px ;
+}
+#c8
+{
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px ;
+}
+#c9
+{
+    background-color:rgb(235, 235, 5);
+    height: 10px;
+    width: 10px;
+    border-radius: 10px ;
+}
+.container14
+{
+    position: relative;
+    height: 40px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.container15
+{
+    background-color: plum;
+    height: 80px;
+    width: 800px;
+    position: relative;
+    top: -290px;
+    margin-left: 260px;
+    
+}
+#c10
+{
+    position: relative;
+    top: 25px;
+    margin-left: 20px;
+    color: white;
+
+}
+
+
+.container15>p
+{
+    position: relative;
+    top: -5px;
+    margin-left: 20px ;
+    width: fit-content;
+}
+.con9 
+{
+    position: relative;
+    top: 2px;
+    margin-left: 230px;
+}
+.con10 
+{
+    position: relative;
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 180px;
+    top: -55px;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+.con10>span
+{
+    position: relative;
+    top: 5px;
+    margin-left: 56px;
+}
+.container16
+{
+    position: relative;
+    margin-top: -267px;
+}
+.container17
+{
+    height: 250px;
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    color: white;
+    background-color:black;
+    
+}
+.container17>div
+{
+
+    position: relative;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.container18
+{
+    position: relative;
+    top: -220px;
+    margin-left:540px;
+    display: flex;
+    gap: 70px;
+    color: whitesmoke;
+
+
+}
+.container18>i:hover
+{
+margin-top: -10px;
+}
+.container19
+{
+    position: relative;
+    margin-top: -33px;
+    height: 50px;
+    background-color: yellow;
+    text-align: center;
+}
+.container19>p
+{
+    position: relative;
+    top: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
